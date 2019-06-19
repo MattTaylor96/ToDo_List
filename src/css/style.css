@@ -1,0 +1,93 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css?family=Cabin|Roboto|Raleway');
+
+/* ---------- Global ---------- */
+body{
+	background-color: #f9f9f9;
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+}
+
+.hidden{
+	display: none;
+}
+
+.container{
+	background-color: #f1f1f1;
+	border-radius: 5px;
+	box-shadow:  0 0 10px #1e272e;
+	margin: 50px auto 0 auto;
+	padding: 5px 10px;
+	width: 80%;
+}
+
+.page-title{
+	font-family: "Raleway", sans-serif;
+	text-align: center;
+}
+
+.page-desc{
+	font-size: 18px;
+	margin: auto;
+	padding-bottom: 10px;
+	width: 80%;
+}
+
+.row{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+.submit-btn{
+	background-color: #3e86b5;
+	border: 0;
+	font-size: 20px;
+	transition: 0.5s;
+}
+	.submit-btn:hover{ 
+		background-color: #6cb9ec;
+		cursor: pointer; 
+		transition: 0.5s;
+	}
+
+#todo-input{
+	border: solid 1px #3e86b5;
+	font-family: "Roboto", sans-serif;
+	font-size: 24px;
+	width: 70%;
+}
+
+.list-item{
+	margin: auto;
+	width: 90%;
+}
+	.list-row{
+		align-items: center;
+		justify-content: space-between;
+		display: flex;
+
+	}
+		.task-desc{
+			margin: 0;
+			margin-right: auto;
+		}
+		.close-task{
+			padding-right: 25px;
+		}
+			.close-task:hover{
+				cursor: pointer;
+			}
+		.delete-task{
+			
+		}
+			.delete-task:hover{
+				cursor: pointer;
+			}
+		.task-time{
+			font-style: italic;
+		}
+
+.task-complete{
+	text-decoration: line-through;
+}
